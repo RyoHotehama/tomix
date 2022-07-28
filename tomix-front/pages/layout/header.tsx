@@ -15,21 +15,21 @@ const Header = () => {
       <AppBar color="transparent" position="fixed">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-          <Typography className={Styles.header}
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              m: 'auto',
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
+            <Typography className={Styles.header}
+              variant="h6"
+              noWrap
+              component="a"
+              href="/"
+              sx={{
+                m: 'auto',
+                display: { xs: 'none', md: 'flex' },
+                fontFamily: 'monospace',
+                fontWeight: 700,
+                letterSpacing: '.3rem',
+                color: 'inherit',
+                textDecoration: 'none',
+              }}
+            >
             tomix
             </Typography>
           </Toolbar>
